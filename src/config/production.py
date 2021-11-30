@@ -1,0 +1,10 @@
+DEBUG = False
+USER_DB = 'root'
+PASSWORD_DB = 'Lepo#9609'
+HOST = 'localhost'
+PORT = 3306
+DATA_BASE = 'smartbeer_db'
+SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://{}:{}@{}:{}/{}'.format(USER_DB, PASSWORD_DB, HOST, PORT, DATA_BASE)
+SQLALCHEMY_TRACK_MODIFICATIONS = False
+SECRET_KEY = 'smartbeer'
+SWAGGER={ 'title': "Bookmarks API",'uiversion': 3 }
